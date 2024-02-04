@@ -38,7 +38,7 @@ div {
     height: 5vh;
 }
 
-.new-items {
+.newitems {
     color: brown;
     flex-direction: row;
     justify-content: center;
