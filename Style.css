@@ -1,0 +1,60 @@
+div {
+    border: thin;
+    display: flex;
+}
+
+.text-white {
+    color: white;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.wrapper {
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 3px;
+}
+.menu {
+    color: darkblue;
+    gap: 10px; 
+}
+
+.subheader {
+    background-color: gold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.spacer {
+    height: 5vh;
+}
+
+.search {
+    color: brown;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.shop {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
+}
+
+.shop-item {
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+    justify-content: space-between;
+    
+}
