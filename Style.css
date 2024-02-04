@@ -31,10 +31,7 @@ div {
     display: flex;
     background-color: gold;
     flex-direction: row;
-    /* justify-content: space-between; */
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 3px;
+    justify-content: space-between;
 }
 
 .spacer {
