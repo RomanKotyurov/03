@@ -38,7 +38,7 @@ div {
     height: 5vh;
 }
 
-.search {
+.new-items {
     color: brown;
     flex-direction: row;
     justify-content: center;
